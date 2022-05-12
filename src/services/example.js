@@ -1,5 +1,6 @@
-import request from '../utils/request';
+import request from "../utils/request";
 
-export function query() {
-  return request('/api/users');
+export function queryUser() {
+  // return request('/api/users');
+  return request("https://randomuser.me/api");
 }
